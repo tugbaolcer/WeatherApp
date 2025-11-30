@@ -29,6 +29,12 @@ ksp = "2.2.20-2.0.2"
 #Glide
 glide ="4.16.0"
 
+#Test
+junit5 = "4.13.2"
+mockk = "1.13.3"
+coroutinesTest = "1.8.0"
+turbine = "1.0.0"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -64,6 +70,12 @@ hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.re
 
 #Glide
 glide = { module = "com.github.bumptech.glide:glide", version.ref ="glide"}
+
+#Test
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit5" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutinesTest" }
+turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
 
 
 [plugins]
