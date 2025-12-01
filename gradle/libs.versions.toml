@@ -29,6 +29,9 @@ ksp = "2.2.20-2.0.2"
 #Glide
 glide ="4.16.0"
 
+#Room
+room = "2.8.4"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -64,6 +67,11 @@ hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.re
 
 #Glide
 glide = { module = "com.github.bumptech.glide:glide", version.ref ="glide"}
+
+#Room
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 
 
 [plugins]

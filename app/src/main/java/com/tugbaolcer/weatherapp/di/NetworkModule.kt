@@ -2,7 +2,7 @@ package com.tugbaolcer.weatherapp.di
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import com.tugbaolcer.weatherapp.data.api.WeatherApi
+import com.tugbaolcer.weatherapp.data.remote.api.WeatherApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,6 +1,6 @@
-package com.tugbaolcer.weatherapp.data.api
+package com.tugbaolcer.weatherapp.data.remote.api
 
-import com.tugbaolcer.weatherapp.data.model.WeatherResponseDto
+import com.tugbaolcer.weatherapp.data.remote.model.WeatherResponseDto
 import retrofit2.http.GET
 import retrofit2.http.Query
 

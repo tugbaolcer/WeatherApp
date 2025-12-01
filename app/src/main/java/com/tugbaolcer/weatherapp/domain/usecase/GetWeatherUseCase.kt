@@ -3,7 +3,6 @@ package com.tugbaolcer.weatherapp.domain.usecase
 import com.tugbaolcer.weatherapp.domain.model.WeatherData
 import com.tugbaolcer.weatherapp.domain.repository.WeatherRepository
 import com.tugbaolcer.weatherapp.utils.Resource
-import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOn

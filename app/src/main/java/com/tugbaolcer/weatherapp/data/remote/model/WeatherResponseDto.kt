@@ -1,4 +1,4 @@
-package com.tugbaolcer.weatherapp.data.model
+package com.tugbaolcer.weatherapp.data.remote.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
